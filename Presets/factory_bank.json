@@ -1,0 +1,13 @@
+{
+  "plugin": "Musique Pitch Shift",
+  "presets": [
+    {"name":"Double Wide Stereo", "pitch":0.0, "fine":6.0, "formant":0.52, "voice":2.0, "spread":34.0, "detune":5.8, "octave":0.0, "mix":34.0, "output":0.0, "stereo_stack":true, "mono":false},
+    {"name":"Pitch Octave Up Center", "pitch":0.0, "fine":0.0, "formant":0.48, "voice":1.0, "spread":0.0, "detune":0.0, "octave":1.0, "mix":100.0, "output":-2.0, "stereo_stack":false, "mono":false},
+    {"name":"Pitch Octave Down Center", "pitch":0.0, "fine":0.0, "formant":0.55, "voice":1.0, "spread":0.0, "detune":0.0, "octave":-1.0, "mix":100.0, "output":-1.5, "stereo_stack":false, "mono":false},
+    {"name":"Harmony Triple Stereo", "pitch":7.0, "fine":-3.0, "formant":0.50, "voice":3.0, "spread":86.0, "detune":10.5, "octave":0.0, "mix":50.0, "output":-0.8, "stereo_stack":true, "mono":false},
+    {"name":"Micro Shift Stereo", "pitch":0.0, "fine":-8.0, "formant":0.51, "voice":2.0, "spread":26.0, "detune":3.8, "octave":0.0, "mix":22.0, "output":0.0, "stereo_stack":true, "mono":false},
+    {"name":"Vocal Stack Mono Input", "pitch":3.0, "fine":0.0, "formant":0.32, "voice":2.0, "spread":52.0, "detune":7.0, "octave":0.0, "mix":60.0, "output":-1.2, "stereo_stack":false, "mono":true},
+    {"name":"Shimmer Stereo Stack", "pitch":12.0, "fine":0.0, "formant":0.58, "voice":2.0, "spread":68.0, "detune":9.0, "octave":0.0, "mix":38.0, "output":-1.0, "stereo_stack":true, "mono":false},
+    {"name":"Formant Dark Mono Input", "pitch":-4.0, "fine":0.0, "formant":0.70, "voice":1.0, "spread":0.0, "detune":0.0, "octave":0.0, "mix":58.0, "output":-0.9, "stereo_stack":false, "mono":true}
+  ]
+}
