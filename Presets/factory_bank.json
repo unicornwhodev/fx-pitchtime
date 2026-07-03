@@ -1,13 +1,27 @@
 {
-  "plugin": "Musique Pitch Shift",
+  "plugin": "Musique PitchTime",
   "presets": [
-    {"name":"Double Wide Stereo", "pitch":0.0, "fine":6.0, "formant":0.52, "voice":2.0, "spread":34.0, "detune":5.8, "octave":0.0, "mix":34.0, "output":0.0, "stereo_stack":true, "mono":false},
-    {"name":"Pitch Octave Up Center", "pitch":0.0, "fine":0.0, "formant":0.48, "voice":1.0, "spread":0.0, "detune":0.0, "octave":1.0, "mix":100.0, "output":-2.0, "stereo_stack":false, "mono":false},
-    {"name":"Pitch Octave Down Center", "pitch":0.0, "fine":0.0, "formant":0.55, "voice":1.0, "spread":0.0, "detune":0.0, "octave":-1.0, "mix":100.0, "output":-1.5, "stereo_stack":false, "mono":false},
-    {"name":"Harmony Triple Stereo", "pitch":7.0, "fine":-3.0, "formant":0.50, "voice":3.0, "spread":86.0, "detune":10.5, "octave":0.0, "mix":50.0, "output":-0.8, "stereo_stack":true, "mono":false},
-    {"name":"Micro Shift Stereo", "pitch":0.0, "fine":-8.0, "formant":0.51, "voice":2.0, "spread":26.0, "detune":3.8, "octave":0.0, "mix":22.0, "output":0.0, "stereo_stack":true, "mono":false},
-    {"name":"Vocal Stack Mono Input", "pitch":3.0, "fine":0.0, "formant":0.32, "voice":2.0, "spread":52.0, "detune":7.0, "octave":0.0, "mix":60.0, "output":-1.2, "stereo_stack":false, "mono":true},
-    {"name":"Shimmer Stereo Stack", "pitch":12.0, "fine":0.0, "formant":0.58, "voice":2.0, "spread":68.0, "detune":9.0, "octave":0.0, "mix":38.0, "output":-1.0, "stereo_stack":true, "mono":false},
-    {"name":"Formant Dark Mono Input", "pitch":-4.0, "fine":0.0, "formant":0.70, "voice":1.0, "spread":0.0, "detune":0.0, "octave":0.0, "mix":58.0, "output":-0.9, "stereo_stack":false, "mono":true}
+    { "name": "Double Wide Stereo", "engine": 0, "variant": 1, "sync": false, "pitch": 0.0, "fine": 6.0, "formant": 0.52, "voice": 2.0, "spread": 34.0, "detune": 5.8, "octave": 0.0, "mix": 34.0, "output": 0.0, "stereo_stack": true, "mono": false },
+    { "name": "Pitch Octave Up Center", "engine": 0, "variant": 2, "sync": false, "pitch": 0.0, "fine": 0.0, "formant": 0.48, "voice": 1.0, "spread": 0.0, "detune": 0.0, "octave": 1.0, "mix": 100.0, "output": -2.0, "stereo_stack": false, "mono": false },
+    { "name": "Pitch Octave Down Center", "engine": 0, "variant": 2, "sync": false, "pitch": 0.0, "fine": 0.0, "formant": 0.55, "voice": 1.0, "spread": 0.0, "detune": 0.0, "octave": -1.0, "mix": 100.0, "output": -1.5, "stereo_stack": false, "mono": false },
+    { "name": "Harmony Triple Stereo", "engine": 0, "variant": 2, "sync": false, "pitch": 7.0, "fine": -3.0, "formant": 0.50, "voice": 3.0, "spread": 86.0, "detune": 10.5, "octave": 0.0, "mix": 50.0, "output": -0.8, "stereo_stack": true, "mono": false },
+    { "name": "Micro Shift Stereo", "engine": 0, "variant": 1, "sync": false, "pitch": 0.0, "fine": -8.0, "formant": 0.51, "voice": 2.0, "spread": 26.0, "detune": 3.8, "octave": 0.0, "mix": 22.0, "output": 0.0, "stereo_stack": true, "mono": false },
+    { "name": "Vocal Stack Mono Input", "engine": 0, "variant": 1, "sync": false, "pitch": 3.0, "fine": 0.0, "formant": 0.32, "voice": 2.0, "spread": 52.0, "detune": 7.0, "octave": 0.0, "mix": 60.0, "output": -1.2, "stereo_stack": false, "mono": true },
+    { "name": "Shimmer Stereo Stack", "engine": 0, "variant": 2, "sync": false, "pitch": 12.0, "fine": 0.0, "formant": 0.58, "voice": 2.0, "spread": 68.0, "detune": 9.0, "octave": 0.0, "mix": 38.0, "output": -1.0, "stereo_stack": true, "mono": false },
+    { "name": "Formant Dark Mono Input", "engine": 0, "variant": 0, "sync": false, "pitch": -4.0, "fine": 0.0, "formant": 0.70, "voice": 1.0, "spread": 0.0, "detune": 0.0, "octave": 0.0, "mix": 58.0, "output": -0.9, "stereo_stack": false, "mono": true },
+
+    { "name": "Time Stretch Tape Lean", "engine": 1, "variant": 0, "sync": false, "stretch_ratio": 138.0, "stretch_window": 260.0, "stretch_grain": 38.0, "stretch_transient": 62.0, "stretch_tone": 48.0, "stretch_spread": 28.0, "stretch_smooth": 72.0, "mix": 78.0, "output": -1.0, "mono": false },
+    { "name": "Time Stretch Rhythm Grid", "engine": 1, "variant": 1, "sync": true, "stretch_ratio": 72.0, "stretch_window": 460.0, "stretch_grain": 58.0, "stretch_transient": 70.0, "stretch_tone": 56.0, "stretch_spread": 36.0, "stretch_smooth": 44.0, "mix": 82.0, "output": -1.5, "mono": false },
+    { "name": "Time Stretch Grain Bloom", "engine": 1, "variant": 2, "sync": false, "stretch_ratio": 164.0, "stretch_window": 520.0, "stretch_grain": 82.0, "stretch_transient": 34.0, "stretch_tone": 42.0, "stretch_spread": 64.0, "stretch_smooth": 54.0, "mix": 88.0, "output": -2.0, "mono": false },
+
+    { "name": "AutoTune Natural Lead", "engine": 2, "variant": 0, "sync": false, "tune_amount": 62.0, "tune_speed": 42.0, "tune_humanize": 34.0, "tune_key": 0, "tune_scale": 1, "tune_formant": 58.0, "tune_range": 3, "mix": 100.0, "output": -1.2, "mono": false },
+    { "name": "AutoTune Pop Hook", "engine": 2, "variant": 1, "sync": false, "tune_amount": 84.0, "tune_speed": 68.0, "tune_humanize": 16.0, "tune_key": 9, "tune_scale": 2, "tune_formant": 52.0, "tune_range": 1, "mix": 100.0, "output": -1.0, "mono": false },
+    { "name": "AutoTune Hard Robot", "engine": 2, "variant": 2, "sync": false, "tune_amount": 100.0, "tune_speed": 92.0, "tune_humanize": 0.0, "tune_key": 2, "tune_scale": 0, "tune_formant": 46.0, "tune_range": 2, "mix": 100.0, "output": -1.5, "mono": false },
+
+    { "name": "Formant Shift Gentle Lift", "engine": 3, "variant": 0, "sync": false, "fmt_shift": 2.5, "fmt_fine": 12.0, "fmt_focus": 62.0, "fmt_brightness": 58.0, "fmt_body": 46.0, "fmt_unvoiced": 52.0, "fmt_spread": 12.0, "mix": 84.0, "output": -0.8, "mono": false },
+    { "name": "Formant Shift Gender Drop", "engine": 3, "variant": 1, "sync": false, "fmt_shift": -4.0, "fmt_fine": -8.0, "fmt_focus": 54.0, "fmt_brightness": 42.0, "fmt_body": 66.0, "fmt_unvoiced": 48.0, "fmt_spread": 18.0, "mix": 90.0, "output": -1.0, "mono": false },
+
+    { "name": "Vibrato Classic Solo", "engine": 4, "variant": 0, "sync": false, "vib_rate": 3.2, "vib_depth": 34.0, "vib_spread": 26.0, "vib_shape": 0, "vib_tone": 50.0, "vib_rise": 22.0, "vib_detune": 14.0, "mix": 100.0, "output": -0.6, "mono": false },
+    { "name": "Vibrato Choir Drift", "engine": 4, "variant": 2, "sync": true, "vib_rate": 5.6, "vib_depth": 52.0, "vib_spread": 62.0, "vib_shape": 2, "vib_tone": 58.0, "vib_rise": 38.0, "vib_detune": 34.0, "mix": 100.0, "output": -1.1, "mono": false }
   ]
 }
