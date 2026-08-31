@@ -1,3 +1,32 @@
+<!-- UWDEVST-SHOWCASE:START -->
+<p align="center">
+  <img src="docs/social-preview.jpg" width="960" alt="Musique PitchTime — UWdeVST collection artwork" />
+</p>
+
+<h1 align="center">Musique PitchTime</h1>
+
+<p align="center"><strong>Change your perspective.</strong><br />Explore pitch, harmony, formants and time stretching inside one effect.</p>
+
+<p align="center">
+  <a href="https://unicorsoundengine.com/en/plugins/fx-pitchtime#listen">Listen</a> ·
+  <a href="https://unicorsoundengine.com/en/plugins/fx-pitchtime#install">Download</a> ·
+  <a href="https://unicorsoundengine.com/en">Full collection</a> ·
+  <a href="https://github.com/unicornwhodev/fx-pitchtime/issues/new/choose">Report an issue</a>
+</p>
+
+**Windows x64 · VST3 · Standalone**
+
+- Pitch shifting and time stretching
+- Formants, vibrato and pitch correction
+- Stereo doubling and stacking
+
+> **Publicly viewable source — proprietary license.** Official binaries are free for individuals and organizations with no more than EUR 100,000 in worldwide consolidated gross revenue. Modification and redistribution are not permitted. Professional use above that threshold requires a paid written license. [Read the license](https://unicorsoundengine.com/en/license) or [request a commercial license](https://unicorsoundengine.com/en/contact).
+
+The license included with each tagged release governs that release. The v1.0 license applies prospectively and does not withdraw permissions already granted on earlier releases.
+<!-- UWDEVST-SHOWCASE:END -->
+
+---
+
 # Musique PitchTime
 
 Musique PitchTime is a Windows pitch and time-processing effect for doubling, harmony, formant colour, time stretch and vocal-style modulation. It is available as a Standalone application and a VST3 plug-in.
@@ -62,4 +91,4 @@ The script creates a portable Windows package and, when Inno Setup 6 is installe
 
 ## Licence and support
 
-This project is source-available, not open source. See [LICENSE.md](LICENSE.md) for the permitted use of source and binaries. For a released-build issue, open an issue with the Windows version, host name/version, plug-in format and steps to reproduce it.
+The source code is publicly viewable under a proprietary license. Viewing and private compilation of strictly unchanged source are permitted; modification and redistribution are not. See [LICENSE.md](LICENSE.md). For a released-build issue, open an issue with the Windows version, host name/version, plug-in format and steps to reproduce it.
